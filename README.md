@@ -1,7 +1,10 @@
 # CartPole_via_Policy-gradients
+The environment is the CartPole environment. The goal of CartPole is to balance a pole connected with one joint on top of a moving cart. Each state can be defined as 4 dimension vector of rational numbers, which contains the following information
+s = [cart position, cart velocity, pole angle, pole angular velocity].
+
+![Pole](https://user-images.githubusercontent.com/49614331/145956577-0a45f1d9-1211-4e0b-bfed-754c264d9389.png)
+
 Solving CartPole-v1 environment using policy-gradient methods.
-
-
 This repository contains the implementation of the following policy-gradient methods using tensorflow 1.4:
 1.  Vanilla REINFORCE.
 2.  REINFORCE with Advantage-function. (with Value-network trained using Target-Network & Replay-Buffer)
